@@ -38,3 +38,24 @@ $ node index.js 2
 $ npm run start 2
 2
 ```
+
+Commandificator also takes an optional `message` argument.
+
+```js
+import commandify from "commandify"
+
+let echo = (x)=> console.log(x)
+let echo0 = () => echo("0")
+let echo1 = () => echo("1")
+
+let functions = [echo0, echo1]
+let message = "[0/1]: "
+
+commandify(functions, message)
+```
+
+```
+$ node test.js
+[0/1]: 2
+2
+```

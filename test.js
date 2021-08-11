@@ -9,3 +9,4 @@ let echo4 = () => echo(4)
 
 let functions = [echo0, echo1, echo2, echo3, echo4]
 commandify(functions)
+// commandify(functions, "[0/1/2/3/4]: ")
