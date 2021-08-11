@@ -5,7 +5,6 @@ A narrow tool which turns a list of functions into a command line prompt. For a 
 
 ```
 $ npm install commandificator
-
 ```
 
 ## Example use
@@ -27,6 +26,15 @@ commandify(functions)
 
 ```
 $ node index.js
+[0]: Run echo0
+[1]: Run echo1
+[2]: Run echo2
+[3]: Run echo3
+[4]: Run echo4
+Choose one option, wisely: #1
+1
 $ node index.js 2
+2
 $ npm run start 2
+2
 ```
