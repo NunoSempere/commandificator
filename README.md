@@ -56,6 +56,6 @@ commandify(functions, message)
 
 ```
 $ node test.js
-[0/1]: 2
-2
+[0/1]: 1
+1
 ```
