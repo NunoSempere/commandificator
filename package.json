@@ -12,6 +12,10 @@
     "command",
     "line"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/"
+  },
   "author": "Nuño Sempere",
   "license": "MIT",
   "dependencies": {
