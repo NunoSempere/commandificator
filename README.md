@@ -1,5 +1,5 @@
 # Commandificator
-A narrow tool which turns a list of functions into a command line prompt. For a more featureful solution, see [commander](https://www.npmjs.com/package/commander)
+A narrow tool which turns a list of functions into a command line prompt. For a more featureful solution, see e.g., [commander](https://www.npmjs.com/package/commander).
 
 ## Installation
 
